@@ -1,0 +1,38 @@
+.taskcontainer {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    z-index: 1;
+}
+
+.iconbutton { 
+}
+
+.tasktitle {
+    width: 70%;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.modifycontainer {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.inputchange {
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.edit {
+    border: 1px solid black;
+    display: flex;
+    width: 200%;
+    z-index: 999;
+    word-wrap: normal;
+}
+
+.edit > button {
+    width: 30%;
+}

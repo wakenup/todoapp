@@ -1,0 +1,27 @@
+.container { 
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input {
+    font-size: 20px;
+    padding: 8px 16px;
+    border:0;
+    width: 36%;
+}
+
+button { 
+    font-size: 20px;
+    padding: 8px;
+    border: 0;
+    width: 5%;
+    background-color: #afafbb;
+}
+
+input:focus{
+    outline: none;
+}
+
